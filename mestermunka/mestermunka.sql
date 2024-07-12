@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: localhost
--- Létrehozás ideje: 2024. Júl 05. 16:53
+-- Létrehozás ideje: 2024. Júl 12. 07:49
 -- Kiszolgáló verziója: 8.0.31
 -- PHP verzió: 8.2.20
 
@@ -48,7 +48,9 @@ INSERT INTO `tasks` (`id`, `name`, `description`, `status`, `person`, `date`) VA
 (36, 'Kultivátorozás', 'Kukorica kultivátorozás műtrágyaszórással, pétisó 120 kg/ha', 'kész', 'Dániel', '2024-06-02'),
 (37, 'Permetezés', 'Napraforgó permetezés 6630 traktorral, régi amazone géppel. Bacardy napraforgó, pulsar plus 2l/ha 250 l/ha víz', ' folyamatban', 'Tibor', '2024-05-02'),
 (42, 'bfgb', 'ydbd', 'xcvxc', 'Sándor', '2024-04-30'),
-(43, 'sdavs', 'asdvas', 'avaev', 'avasdv', '2024-07-22');
+(43, 'Aratáshoz szállítás', 'asdvass klloer nvdjn', 'Kész', 'Péter', '2024-08-22'),
+(45, 'sdvs', 'ÉEFM', 'eéfmeklw', 'DÁniel', '2024-08-14'),
+(46, 'Tárcsázás hsld,', 'lorem tárcsa dolor ', 'Folyamatban', 'Tibor', '2024-08-02');
 
 --
 -- Indexek a kiírt táblákhoz
@@ -68,7 +70,7 @@ ALTER TABLE `tasks`
 -- AUTO_INCREMENT a táblához `tasks`
 --
 ALTER TABLE `tasks`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

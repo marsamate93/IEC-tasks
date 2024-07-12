@@ -40,7 +40,6 @@ if (isset($_POST['update_task'])) {
     $person = $_POST['person'];
     $date = $_POST['date'];
 
-    // Adatellenőrzés
     if (empty(trim($task)) || empty(trim($task_description)) || empty(trim($status)) || empty(trim($person)) || empty(trim($date))) {
         header("Location: update_task.php?id=$id&message=Minden mező kitöltése kötelező!");
         exit;
@@ -67,9 +66,10 @@ if (isset($_POST['update_task'])) {
 <body>
     <h2>Feladat módosítása</h2>
     
-    <?php if (isset($_GET['message'])): ?>
-        <h6><?php echo $_GET['message']; ?></h6>
-    <?php endif; ?>
+    <?php if (isset($_GET['message'])) 
+    { 
+         echo $_GET['message'];
+    } ?>
 
     <form action="update_task.php?id=<?php echo $id; ?>" method="post">
         <div class="form-group">

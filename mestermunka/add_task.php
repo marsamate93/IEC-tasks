@@ -22,7 +22,7 @@ if (isset($_POST['add_task'])) {
     $person = $_POST['person'];
     $date = $_POST['date'];
 
-    // Adatellenőrzés
+
     if (empty(trim($task))) {
         header('Location: index.php?message=Feladat megadása kötelező!');
         exit;
@@ -48,7 +48,6 @@ if (isset($_POST['add_task'])) {
         exit;
     }
 
-    // Adatok beszúrása
     try {
         $query = "INSERT INTO tasks (name, description, status, person, date) VALUES (?, ?, ?, ?, ?)";
         $stmt = $pdo->prepare($query);

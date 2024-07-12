@@ -13,8 +13,6 @@
 </head>
 <body>
 
-
-
     <h1>TRAKTOROS MUNKÁK</h1>
     <div class ="container">
 

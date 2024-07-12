@@ -13,7 +13,7 @@ body {
 .login-container {
     background-color: #ffffff;
     padding: 20px;
-    border: 2px solid rgb(54, 124, 43); 
+    border: 2px solid #367C2B; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -21,7 +21,7 @@ body {
 }
 
 .login-container h2 {
-    color: rgb(54, 124, 43);
+    color: #367C2B; 
     margin-bottom: 20px;
 }
 
@@ -34,13 +34,13 @@ body {
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: rgb(54, 124, 43); 
+    color: #367C2B; 
 }
 
 .form-group input {
     width: 100%;
     padding: 10px;
-    border: 1px solid rgb(54, 124, 43);
+    border: 1px solid #367C2B; 
     border-radius: 5px;
     box-sizing: border-box;
 }

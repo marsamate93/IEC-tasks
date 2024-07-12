@@ -27,7 +27,7 @@ if (isset($_GET['id'])) {
         die("Query Failed: " . $e->getMessage());
     }
 } else {
-    header("Location: index.php?message=");
+    header("Location: index.php?message=Érvénytelen azonosító!");
     exit;
 }
 ?>
